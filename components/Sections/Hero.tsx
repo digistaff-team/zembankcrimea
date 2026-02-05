@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 lg:py-40">
         <div className="max-w-3xl">
-          <h1 className="text-2xl md:text-2xl lg:text-2xl font-extrabold tracking-tight mb-6 leading-tight">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-extrabold tracking-tight mb-6 leading-tight">
             Ваш надежный проводник <br />
             <span className="text-emerald-400">в мире земельных сделок</span> Крыма
           </h1>
