@@ -6,7 +6,7 @@ export const PRO_TALK_API_URL = 'https://api.pro-talk.ru/api/v1.0';
 // Получаем токен из переменных окружения (для Vercel) или используем хардкод (для локальной разработки)
 // Используем optional chaining (?.) для безопасного доступа к env, так как в некоторых средах он может быть undefined
 // Fix: Cast import.meta to any because types for vite/client are missing in this environment
-export const PRO_TALK_BOT_TOKEN = (import.meta as any).env?.VITE_PRO_TALK_BOT_TOKEN || '5ZpR8LPr1IJNwaAA0sIm7qVcX6ZSkHjt'; 
+export const PRO_TALK_BOT_TOKEN = (import.meta as any).env?.VITE_PRO_TALK_BOT_TOKEN; 
 
 export const PRO_TALK_BOT_ID = 55737;
 
