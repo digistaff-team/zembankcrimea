@@ -25,19 +25,19 @@ const Hero: React.FC = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 lg:py-40">
         <div className="max-w-4xl">
           {/* Top Tagline */}
-          <h2 className="text-xl md:text-2xl font-semibold text-emerald-400 mb-4 tracking-wide">
+          <h2 className="text-lg md:text-xl font-semibold text-emerald-400 mb-4 tracking-wide">
             Ваш надёжный проводник <br className="hidden sm:inline" />
             в мире земельных сделок
           </h2>
 
           {/* Main Massive Title */}
-          <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black tracking-tighter mb-8 leading-[0.9] text-white uppercase">
+          <h1 className="text-4xl sm:text-6xl lg:text-6xl font-black tracking-tighter mb-8 leading-[0.9] text-white uppercase">
             ЗЕМЕЛЬНЫЙ <br />
             БАНК КРЫМА
           </h1>
           
           {/* List Description */}
-          <div className="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl leading-relaxed">
+          <div className="text-sm md:text-xl text-slate-300 mb-10 max-w-2xl leading-relaxed">
             <p className="mb-4 font-medium text-white">Первая цифровая платформа, где можно:</p>
             <ul className="space-y-3">
               <li className="flex items-start">
