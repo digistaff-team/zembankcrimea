@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { NAV_LINKS } from '../../constants';
-import { Menu, X, Landmark } from 'lucide-react';
+import { NAV_LINKS, LOGO_URL } from '../../constants';
+import { Menu, X } from 'lucide-react';
 
 const Header: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -20,12 +20,14 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <div className="bg-emerald-600 p-2 rounded-lg text-white mr-3">
-              <Landmark size={24} />
-            </div>
+            <img 
+              src={LOGO_URL} 
+              alt="Земельный Банк Крыма" 
+              className="h-10 w-auto mr-3 object-contain hover:scale-105 transition-transform duration-300"
+            />
             <div>
-              <h1 className="text-xl font-bold text-slate-800 leading-tight">ЗемБанк</h1>
-              <p className="text-xs text-slate-500 font-medium tracking-wide">КРЫМ</p>
+              <h1 className="text-xl font-bold text-slate-800 leading-tight">ЗБК</h1>
+              {/* <p className="text-xs text-slate-500 font-medium tracking-wide">КРЫМ</p>*/}
             </div>
           </div>
 

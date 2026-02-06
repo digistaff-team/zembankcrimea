@@ -19,20 +19,41 @@ const Hero: React.FC = () => {
           alt="Crimea Coast Landscape" 
           className="w-full h-full object-cover opacity-60"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-900/60 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/70 to-transparent"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 lg:py-40">
-        <div className="max-w-3xl">
-          <h1 className="text-2xl md:text-3xl lg:text-4xl font-extrabold tracking-tight mb-6 leading-tight">
-            Ваш надежный проводник <br />
-            <span className="text-emerald-400">в мире земельных сделок</span> Крыма
+        <div className="max-w-4xl">
+          {/* Top Tagline */}
+          <h2 className="text-xl md:text-2xl font-semibold text-emerald-400 mb-4 tracking-wide">
+            Ваш надёжный проводник <br className="hidden sm:inline" />
+            в мире земельных сделок
+          </h2>
+
+          {/* Main Massive Title */}
+          <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black tracking-tighter mb-8 leading-[0.9] text-white uppercase">
+            ЗЕМЕЛЬНЫЙ <br />
+            БАНК КРЫМА
           </h1>
-          <p className="text-lg md:text-xl text-slate-300 mb-8 max-w-2xl leading-relaxed">
-            Первая цифровая платформа для безопасной покупки земли. 
-            Гарантия юридической чистоты.
-            Проверка истории собственности за 2 минуты. 
-          </p>
+          
+          {/* List Description */}
+          <div className="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl leading-relaxed">
+            <p className="mb-4 font-medium text-white">Первая цифровая платформа, где можно:</p>
+            <ul className="space-y-3">
+              <li className="flex items-start">
+                <span className="flex-shrink-0 w-2 h-2 mt-2.5 bg-emerald-500 rounded-full mr-3"></span>
+                <span>Найти участок мечты без рисков</span>
+              </li>
+              <li className="flex items-start">
+                <span className="flex-shrink-0 w-2 h-2 mt-2.5 bg-emerald-500 rounded-full mr-3"></span>
+                <span>Проверить историю собственности за 2 минуты</span>
+              </li>
+              <li className="flex items-start">
+                <span className="flex-shrink-0 w-2 h-2 mt-2.5 bg-emerald-500 rounded-full mr-3"></span>
+                <span>Купить землю с гарантией чистоты сделки</span>
+              </li>
+            </ul>
+          </div>
           
           <div className="flex flex-col sm:flex-row gap-4">
             <a 
