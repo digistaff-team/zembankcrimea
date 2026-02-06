@@ -11,7 +11,7 @@ export const PRO_TALK_BOT_TOKEN = (import.meta as any).env?.VITE_PRO_TALK_BOT_TO
 export const PRO_TALK_BOT_ID = 55737;
 
 // Logo Configuration
-export const LOGO_URL = "https://file.pro-talk.ru/get_uploaded_file/tmp/emb_upload_cac6ffb5-dc9f-46b3-aa84-133a902fcce7.png";
+export const LOGO_URL = "https://i.ibb.co/PvRRY8nb/Logo-background-removed.png";
 
 // Mock Data for Land Listings
 export const MOCK_LANDS: LandListing[] = [
